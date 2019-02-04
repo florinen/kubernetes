@@ -12,7 +12,7 @@ spec:
           - name: hello
             image: busybox
             args:
-            command: ["/bin/sh", "-c", "uname -r"]
+            command: ["/bin/sh", "-c", "uname"]
           activeDeadlineSeconds: 10 
           restartPolicy: OnFailure
 
