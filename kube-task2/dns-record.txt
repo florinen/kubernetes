@@ -1,0 +1,5 @@
+[root@centos /]# nslookup nginx-pod-headless-service
+Server:         10.27.240.10
+Address:        10.27.240.10#53
+Name:   nginx-pod-headless-service.default.svc.cluster.local
+Address: 10.24.0.84
