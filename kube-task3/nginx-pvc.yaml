@@ -5,8 +5,6 @@ metadata:
   labels:
     app: app-data
 spec:
-  nodeSelector:
-    kubernetes.io/hostname: "gke-k8-cluster-1-default-pool-c8cc922c-717x"
   volumes:
     - name: app-data
       persistentVolumeClaim:
