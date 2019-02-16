@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: app-data-claim
+  labels:
+    app: app-data
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: manual 
+  resources:
+    requests:
+      storage: 1Gi
